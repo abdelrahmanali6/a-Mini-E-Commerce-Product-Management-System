@@ -71,7 +71,7 @@ Using SQL Server, Create database code first using Entity Framework.
      - `DELETE http://localhost:5171/api/shop/{id}` Delete a specific product.
      - `POST http://localhost:5171/api/shop/{categoryId}` Create a product with a specific category.
     
-  - Explore the available API endpoints for managing cartItems.
+   - Explore the available API endpoints for managing cartItems.
      - `GET http://localhost:5171/api/cart/{id}` retrieves a specific cart.
      - `PUT http://localhost:5171/api/cart/{id}` Edit a specific cart.
      - `DELETE http://localhost:5171/api/cart/{id}` Delete a specific cart by id.
