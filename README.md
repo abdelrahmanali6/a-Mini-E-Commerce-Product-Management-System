@@ -14,8 +14,7 @@ a Mini E-Commerce Product Management System.
 - [Authentication](#authentication)
 - [Database](#database)
 - [Usage](#usage)
-- [Acknowledgments](#acknowledgments)
-- [Contact](#contact)
+
 
 ## Getting Started
 
@@ -76,7 +75,7 @@ Using SQL Server, Create database code first using Entity Framework.
      - `GET http://localhost:5171/api/cart/{id}` retrieves a specific cart.
      - `PUT http://localhost:5171/api/cart/{id}` Edit a specific cart.
      - `DELETE http://localhost:5171/api/cart/{id}` Delete a specific cart by id.
-
-4. **Authentication:**
+    
+3. **Authentication:**
    - To access protected endpoints, include the JWT token in the Authorization header of your requests.
      - Example: `Authorization: Bearer YOUR_JWT_TOKEN`
